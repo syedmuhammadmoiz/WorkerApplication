@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:scrollbarSize="24dp">
+
+    <ImageView
+        android:id="@+id/imagecontact"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_baseline_image_24" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_baseline_star_24"
+                ></ImageView>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_baseline_star_24"
+                android:layout_marginLeft="-5dp"
+                ></ImageView>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_baseline_star_24"
+                android:layout_marginLeft="-5dp"
+                ></ImageView>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_baseline_star_24"
+                android:layout_marginLeft="-5dp"
+                ></ImageView>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_baseline_star_24"
+                android:layout_marginLeft="-5dp"
+                ></ImageView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/firebasename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Syed Muhammad Moiz"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="11dp"
+            android:text="G-15 Markaz Islamabad"
+            android:layout_marginTop="7dp"
+            ></TextView>
+    </LinearLayout>
+</LinearLayout>

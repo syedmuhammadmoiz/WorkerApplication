@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/notification_img"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/notification_img"
+            android:title="Notification" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/wallet_img"
+            android:title="Wallet" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/setting_img"
+            android:title="Setting" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/help_img"
+            android:title="Help" />
+    </group>
+</menu>
